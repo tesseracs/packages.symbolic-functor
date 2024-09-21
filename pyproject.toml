@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "symbolic-functor"
+version = "0.1.0"
+description = ""
+authors = ["svenviktorjonsson <svenviktorjonsson@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+sympy = "^1.13.3"
+numpy = "^2.1.1"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

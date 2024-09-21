@@ -1,0 +1,110 @@
+
+f(x + 1)
+f(x + 1) {'f': <function _lambdifygenerated at 0x000001FDECB53E20>, 'g': <function _lambdifygenerated at 0x000001FDECB53EC0>} {}
+before lambdify g*(x + 1)
+before lambdify x**2
+f(x + 1) {'f': <function _lambdifygenerated at 0x00000298CBD79D00>, 'g': <function _lambdifygenerated at 0x00000298CC12C7C0>} {}
+before lambdify f(x + 1)
+before lambdify g*(x + 1)
+f(x + 1) {'f': g*(x + 1), 'g': x**2} {}
+before lambdify f(x + 1)
+f(x + 1) {'f': <function _lambdifygenerated at 0x00000163ECF3FEC0>, 'g': <function _lambdifygenerated at 0x00000163ECF3FF60>} {}
+before lambdify f(x + 1)
+before lambdify x**2
+before lambdify g(x + 1)
+f(x + 1) {'g': <function _lambdifygenerated at 0x0000019591873100>, 'f': <function _lambdifygenerated at 0x0000019591A53C40>} {}
+before lambdify f(x + 1)
+x**2 {} {}
+before lambdify x**2
+before lambdify x**2 - 1
+f(x + 1) {'f': <function _lambdifygenerated at 0x000002D85D2E7BA0>} {}
+before lambdify f(x + 1)
+before lambdify x**3
+before lambdify 3*x**2
+fD(x - 1) {'f': <function _lambdifygenerated at 0x000002D85D2F0220>, 'fD': <function _lambdifygenerated at 0x000002D85D2F3060>} {}
+before lambdify fD(x - 1)
+before lambdify x**2*y**3
+before lambdify 6*x*y**2
+fDDxy(w, z) {'f': <function _lambdifygenerated at 0x000002D85D2E7BA0>, 'fDDxy': <function _lambdifygenerated at 0x000002D85D2E7920>} {}
+before lambdify fDDxy(w, z)
+before lambdify x**2 + x
+before lambdify x**4
+before lambdify 24*x
+before lambdify 2*x + 1
+fDDD(gD(x)) {'g': <function _lambdifygenerated at 0x000002D85D2F19E0>, 'f': <function _lambdifygenerated at 0x000002D85D2F3060>, 'fDDD': <function _lambdifygenerated at 0x000002D85D2F36A0>, 'gD': <function _lambdifygenerated at 0x000002D85D314540>} {}
+before lambdify fDDD(gD(x))
+before lambdify x**2
+before lambdify g(x + 1)
+f(x + 1) {'g': <function _lambdifygenerated at 0x000002D85D2E7BA0>, 'f': <function _lambdifygenerated at 0x000002D85D3149A0>} {}
+before lambdify f(x + 1)
+x**2 {} {}
+before lambdify x**2
+before lambdify x**2 - 1
+f(x + 1) {'f': <function _lambdifygenerated at 0x0000027C10847BA0>} {}
+before lambdify f(x + 1)
+before lambdify x**3
+before lambdify 3*x**2
+fD(x - 1) {'f': <function _lambdifygenerated at 0x0000027C10847EC0>, 'fD': <function _lambdifygenerated at 0x0000027C1085ADE0>} {}
+before lambdify fD(x - 1)
+before lambdify x**2*y**3
+before lambdify 6*x*y**2
+fDDxy(w, z) {'f': <function _lambdifygenerated at 0x0000027C10847BA0>, 'fDDxy': <function _lambdifygenerated at 0x0000027C105EFF60>} {}
+before lambdify fDDxy(w, z)
+before lambdify x**2 + x
+before lambdify x**4
+before lambdify 24*x
+before lambdify 2*x + 1
+fDDD(gD(x)) {'g': <function _lambdifygenerated at 0x0000027C1085ADE0>, 'f': <function _lambdifygenerated at 0x0000027C1085B380>, 'fDDD': <function _lambdifygenerated at 0x0000027C1085AF20>, 'gD': <function _lambdifygenerated at 0x0000027C10870040>} {}
+before lambdify fDDD(gD(x))
+before lambdify x**2
+before lambdify g(x + 1)
+f(x + 1) {'g': <function _lambdifygenerated at 0x0000027C10847BA0>, 'f': <function _lambdifygenerated at 0x0000027C108705E0>} {}
+before lambdify f(x + 1)
+x**2 {} {}
+before lambdify x**2
+before lambdify x**2 - 1
+f(x + 1) {'f': <function _lambdifygenerated at 0x00000220BD0B5B20>} {}
+before lambdify f(x + 1)
+before lambdify x**3
+before lambdify 3*x**2
+fD(x - 1) {'f': <function _lambdifygenerated at 0x00000220BD0B60C0>, 'fD': <function _lambdifygenerated at 0x00000220BD0C4900>} {}
+before lambdify fD(x - 1)
+before lambdify x**2*y**3
+before lambdify 6*x*y**2
+fDDxy(w, z) {'f': <function _lambdifygenerated at 0x00000220BD0B5B20>, 'fDDxy': <function _lambdifygenerated at 0x00000220BD0C5260>} {}
+before lambdify fDDxy(w, z)
+before lambdify x**2 + x
+before lambdify x**4
+before lambdify 24*x
+before lambdify 2*x + 1
+fDDD(gD(x)) {'g': <function _lambdifygenerated at 0x00000220BD0B71A0>, 'f': <function _lambdifygenerated at 0x00000220BD0C4900>, 'fDDD': <function _lambdifygenerated at 0x00000220BD0C5300>, 'gD': <function _lambdifygenerated at 0x00000220BD0C59E0>} {}
+before lambdify fDDD(gD(x))
+before lambdify x**2
+before lambdify g(x + 1)
+f(x + 1) {'g': <function _lambdifygenerated at 0x00000220BD0C5260>, 'f': <function _lambdifygenerated at 0x00000220BD0C5E40>} {}
+before lambdify f(x + 1)
+q*r*s*t*x {} {}
+before lambdify q*r*s*t*x
+x**2 {} {}
+before lambdify x**2
+before lambdify x**2 - 1
+f(x + 1) {'f': <function _lambdifygenerated at 0x000001B99E415D00>} {}
+before lambdify f(x + 1)
+before lambdify x**3
+before lambdify 3*x**2
+fD(x - 1) {'f': <function _lambdifygenerated at 0x000001B99E4162A0>, 'fD': <function _lambdifygenerated at 0x000001B99E424AE0>} {}
+before lambdify fD(x - 1)
+before lambdify x**2*y**3
+before lambdify 6*x*y**2
+fDDxy(w, z) {'f': <function _lambdifygenerated at 0x000001B99E415D00>, 'fDDxy': <function _lambdifygenerated at 0x000001B99E425440>} {}
+before lambdify fDDxy(w, z)
+before lambdify x**2 + x
+before lambdify x**4
+before lambdify 24*x
+before lambdify 2*x + 1
+fDDD(gD(x)) {'g': <function _lambdifygenerated at 0x000001B99E4258A0>, 'f': <function _lambdifygenerated at 0x000001B99E4259E0>, 'fDDD': <function _lambdifygenerated at 0x000001B99D8DD260>, 'gD': <function _lambdifygenerated at 0x000001B99E425300>} {}
+before lambdify fDDD(gD(x))
+before lambdify x**2
+before lambdify g(x + 1)
+f(x + 1) {'g': <function _lambdifygenerated at 0x000001B99E425440>, 'f': <function _lambdifygenerated at 0x000001B99E424CC0>} {}
+before lambdify f(x + 1)
